@@ -11,7 +11,6 @@ pipeline {
         stage('Source Code') {
             steps {
                 git url: 'https://github.com/kavyaanantha/spring-framework-petclinic.git'
-                branch: 'master'
             }
 
         }
